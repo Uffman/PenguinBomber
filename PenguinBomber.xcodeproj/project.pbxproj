@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD680C391FA6467A0000AFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD680C381FA6467A0000AFF5 /* Assets.xcassets */; };
+		AD680C3F1FA6467A0000AFF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD680C3E1FA6467A0000AFF5 /* main.m */; };
+		AD680C651FA64B460000AFF5 /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C641FA64B450000AFF5 /* libXNI.a */; };
+		AD680C671FA64BA00000AFF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C661FA64B820000AFF5 /* AudioToolbox.framework */; };
+		AD680C691FA64BB30000AFF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C681FA64BA90000AFF5 /* AVFoundation.framework */; };
+		AD680C6B1FA64BD10000AFF5 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C6A1FA64BC30000AFF5 /* GameKit.framework */; };
+		AD680C6D1FA64BE90000AFF5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C6C1FA64BE20000AFF5 /* OpenAL.framework */; };
+		AD680C6F1FA64BFB0000AFF5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C6E1FA64BF50000AFF5 /* OpenGLES.framework */; };
+		AD680C711FA64C0F0000AFF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C701FA64C080000AFF5 /* QuartzCore.framework */; };
+		AD680C731FA64C560000AFF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C721FA64C4A0000AFF5 /* CoreGraphics.framework */; };
+		AD680C761FA64C7F0000AFF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C751FA64C770000AFF5 /* Foundation.framework */; };
+		AD680C781FA64CA30000AFF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD680C771FA64C9B0000AFF5 /* UIKit.framework */; };
+		AD680C811FA68B680000AFF5 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = AD680C801FA68B680000AFF5 /* penguin.png */; };
+		ADAABD581FB5DFA500B5AD29 /* PenguinBomber.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD571FB5DFA500B5AD29 /* PenguinBomber.m */; };
+		ADAABD5F1FB5E84E00B5AD29 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD5E1FB5E84E00B5AD29 /* Sprite.m */; };
+		ADAABD651FB61F1700B5AD29 /* GameRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD641FB61F1700B5AD29 /* GameRenderer.m */; };
+		ADAABD691FB622BD00B5AD29 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD681FB622BD00B5AD29 /* Level.m */; };
+		ADAABD6C1FB6258800B5AD29 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD6B1FB6258800B5AD29 /* Scene.m */; };
+		ADAABD701FB6264900B5AD29 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD6F1FB6264900B5AD29 /* Penguin.m */; };
+		ADAABD731FB6265800B5AD29 /* Bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD721FB6265800B5AD29 /* Bomb.m */; };
+		ADAABD7F1FB6340300B5AD29 /* PenguinLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAABD7E1FB6340300B5AD29 /* PenguinLevel.m */; };
+		ADAABD811FB6421E00B5AD29 /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = ADAABD801FB6421D00B5AD29 /* bomb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD680C451FA6467A0000AFF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD680C241FA6467A0000AFF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD680C2B1FA6467A0000AFF5;
+			remoteInfo = MyGame;
+		};
+		AD680C501FA6467A0000AFF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD680C241FA6467A0000AFF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD680C2B1FA6467A0000AFF5;
+			remoteInfo = MyGame;
+		};
+		ADAABD951FB65B1B00B5AD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAABD8F1FB65B1A00B5AD29 /* Express.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Express;
+		};
+		ADAABD971FB65B1B00B5AD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAABD8F1FB65B1A00B5AD29 /* Express.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B54278A0127705FF0015E810;
+			remoteInfo = "Express Release";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD680C2C1FA6467A0000AFF5 /* PenguinBomber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenguinBomber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD680C381FA6467A0000AFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD680C3D1FA6467A0000AFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD680C3E1FA6467A0000AFF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD680C441FA6467A0000AFF5 /* PenguinBomberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenguinBomberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD680C4F1FA6467A0000AFF5 /* PenguinBomberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenguinBomberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD680C641FA64B450000AFF5 /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = XNI/libXNI.a; sourceTree = "<group>"; };
+		AD680C661FA64B820000AFF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AD680C681FA64BA90000AFF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AD680C6A1FA64BC30000AFF5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AD680C6C1FA64BE20000AFF5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		AD680C6E1FA64BF50000AFF5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AD680C701FA64C080000AFF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AD680C721FA64C4A0000AFF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD680C741FA64C650000AFF5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AD680C751FA64C770000AFF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD680C771FA64C9B0000AFF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD680C801FA68B680000AFF5 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		ADAABD561FB5DFA500B5AD29 /* PenguinBomber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinBomber.h; sourceTree = "<group>"; };
+		ADAABD571FB5DFA500B5AD29 /* PenguinBomber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinBomber.m; sourceTree = "<group>"; };
+		ADAABD5D1FB5E84E00B5AD29 /* Sprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		ADAABD5E1FB5E84E00B5AD29 /* Sprite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		ADAABD601FB61C9200B5AD29 /* Retronator.PenguinBomber.classes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retronator.PenguinBomber.classes.h; sourceTree = "<group>"; };
+		ADAABD611FB61EAB00B5AD29 /* Retronator.PenguinBomber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retronator.PenguinBomber.h; sourceTree = "<group>"; };
+		ADAABD631FB61F1700B5AD29 /* GameRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameRenderer.h; sourceTree = "<group>"; };
+		ADAABD641FB61F1700B5AD29 /* GameRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameRenderer.m; sourceTree = "<group>"; };
+		ADAABD671FB622BD00B5AD29 /* Level.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		ADAABD681FB622BD00B5AD29 /* Level.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		ADAABD6A1FB6258800B5AD29 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		ADAABD6B1FB6258800B5AD29 /* Scene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		ADAABD6E1FB6264900B5AD29 /* Penguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
+		ADAABD6F1FB6264900B5AD29 /* Penguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
+		ADAABD711FB6265800B5AD29 /* Bomb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bomb.h; sourceTree = "<group>"; };
+		ADAABD721FB6265800B5AD29 /* Bomb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bomb.m; sourceTree = "<group>"; };
+		ADAABD751FB6285C00B5AD29 /* Retronator.PenguinBomber.protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retronator.PenguinBomber.protocols.h; sourceTree = "<group>"; };
+		ADAABD761FB628B500B5AD29 /* Position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		ADAABD7D1FB6340300B5AD29 /* PenguinLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinLevel.h; sourceTree = "<group>"; };
+		ADAABD7E1FB6340300B5AD29 /* PenguinLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinLevel.m; sourceTree = "<group>"; };
+		ADAABD801FB6421D00B5AD29 /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		ADAABD8F1FB65B1A00B5AD29 /* Express.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Express.xcodeproj; path = Express/Express.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD680C291FA6467A0000AFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD680C781FA64CA30000AFF5 /* UIKit.framework in Frameworks */,
+				AD680C761FA64C7F0000AFF5 /* Foundation.framework in Frameworks */,
+				AD680C731FA64C560000AFF5 /* CoreGraphics.framework in Frameworks */,
+				AD680C711FA64C0F0000AFF5 /* QuartzCore.framework in Frameworks */,
+				AD680C6F1FA64BFB0000AFF5 /* OpenGLES.framework in Frameworks */,
+				AD680C6D1FA64BE90000AFF5 /* OpenAL.framework in Frameworks */,
+				AD680C6B1FA64BD10000AFF5 /* GameKit.framework in Frameworks */,
+				AD680C691FA64BB30000AFF5 /* AVFoundation.framework in Frameworks */,
+				AD680C671FA64BA00000AFF5 /* AudioToolbox.framework in Frameworks */,
+				AD680C651FA64B460000AFF5 /* libXNI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD680C411FA6467A0000AFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD680C4C1FA6467A0000AFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD680C231FA6467A0000AFF5 = {
+			isa = PBXGroup;
+			children = (
+				ADAABD8F1FB65B1A00B5AD29 /* Express.xcodeproj */,
+				AD680C2E1FA6467A0000AFF5 /* PenguinBomber */,
+				AD680C2D1FA6467A0000AFF5 /* Products */,
+				AD680C611FA64B050000AFF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD680C2D1FA6467A0000AFF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD680C2C1FA6467A0000AFF5 /* PenguinBomber.app */,
+				AD680C441FA6467A0000AFF5 /* PenguinBomberTests.xctest */,
+				AD680C4F1FA6467A0000AFF5 /* PenguinBomberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD680C2E1FA6467A0000AFF5 /* PenguinBomber */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F7BAC1FAF69F100867543 /* Classes */,
+				AD680C7D1FA6798F0000AFF5 /* Assets */,
+				AD680C381FA6467A0000AFF5 /* Assets.xcassets */,
+				AD680C3D1FA6467A0000AFF5 /* Info.plist */,
+				AD680C3E1FA6467A0000AFF5 /* main.m */,
+			);
+			path = PenguinBomber;
+			sourceTree = "<group>";
+		};
+		AD680C611FA64B050000AFF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD680C771FA64C9B0000AFF5 /* UIKit.framework */,
+				AD680C751FA64C770000AFF5 /* Foundation.framework */,
+				AD680C741FA64C650000AFF5 /* CoreFoundation.framework */,
+				AD680C721FA64C4A0000AFF5 /* CoreGraphics.framework */,
+				AD680C701FA64C080000AFF5 /* QuartzCore.framework */,
+				AD680C6E1FA64BF50000AFF5 /* OpenGLES.framework */,
+				AD680C6C1FA64BE20000AFF5 /* OpenAL.framework */,
+				AD680C6A1FA64BC30000AFF5 /* GameKit.framework */,
+				AD680C681FA64BA90000AFF5 /* AVFoundation.framework */,
+				AD680C661FA64B820000AFF5 /* AudioToolbox.framework */,
+				AD680C641FA64B450000AFF5 /* libXNI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD680C7D1FA6798F0000AFF5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD801FB6421D00B5AD29 /* bomb.png */,
+				AD680C801FA68B680000AFF5 /* penguin.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AD6F7BAC1FAF69F100867543 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD741FB6283400B5AD29 /* Protocols */,
+				ADAABD661FB622A100B5AD29 /* Scene */,
+				ADAABD621FB61EFF00B5AD29 /* Components */,
+				ADAABD5C1FB5E81A00B5AD29 /* Graphics */,
+				ADAABD561FB5DFA500B5AD29 /* PenguinBomber.h */,
+				ADAABD571FB5DFA500B5AD29 /* PenguinBomber.m */,
+				ADAABD601FB61C9200B5AD29 /* Retronator.PenguinBomber.classes.h */,
+				ADAABD611FB61EAB00B5AD29 /* Retronator.PenguinBomber.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ADAABD5C1FB5E81A00B5AD29 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD5D1FB5E84E00B5AD29 /* Sprite.h */,
+				ADAABD5E1FB5E84E00B5AD29 /* Sprite.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		ADAABD621FB61EFF00B5AD29 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD631FB61F1700B5AD29 /* GameRenderer.h */,
+				ADAABD641FB61F1700B5AD29 /* GameRenderer.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ADAABD661FB622A100B5AD29 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD791FB633B500B5AD29 /* Levels */,
+				ADAABD6D1FB6263000B5AD29 /* Objects */,
+				ADAABD671FB622BD00B5AD29 /* Level.h */,
+				ADAABD681FB622BD00B5AD29 /* Level.m */,
+				ADAABD6A1FB6258800B5AD29 /* Scene.h */,
+				ADAABD6B1FB6258800B5AD29 /* Scene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		ADAABD6D1FB6263000B5AD29 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD6E1FB6264900B5AD29 /* Penguin.h */,
+				ADAABD6F1FB6264900B5AD29 /* Penguin.m */,
+				ADAABD711FB6265800B5AD29 /* Bomb.h */,
+				ADAABD721FB6265800B5AD29 /* Bomb.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		ADAABD741FB6283400B5AD29 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD751FB6285C00B5AD29 /* Retronator.PenguinBomber.protocols.h */,
+				ADAABD761FB628B500B5AD29 /* Position.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ADAABD791FB633B500B5AD29 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD7D1FB6340300B5AD29 /* PenguinLevel.h */,
+				ADAABD7E1FB6340300B5AD29 /* PenguinLevel.m */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		ADAABD901FB65B1A00B5AD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAABD961FB65B1B00B5AD29 /* libExpress.a */,
+				ADAABD981FB65B1B00B5AD29 /* libExpress.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD680C2B1FA6467A0000AFF5 /* PenguinBomber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD680C581FA6467A0000AFF5 /* Build configuration list for PBXNativeTarget "PenguinBomber" */;
+			buildPhases = (
+				AD680C281FA6467A0000AFF5 /* Sources */,
+				AD680C291FA6467A0000AFF5 /* Frameworks */,
+				AD680C2A1FA6467A0000AFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenguinBomber;
+			productName = MyGame;
+			productReference = AD680C2C1FA6467A0000AFF5 /* PenguinBomber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD680C431FA6467A0000AFF5 /* PenguinBomberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD680C5B1FA6467A0000AFF5 /* Build configuration list for PBXNativeTarget "PenguinBomberTests" */;
+			buildPhases = (
+				AD680C401FA6467A0000AFF5 /* Sources */,
+				AD680C411FA6467A0000AFF5 /* Frameworks */,
+				AD680C421FA6467A0000AFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD680C461FA6467A0000AFF5 /* PBXTargetDependency */,
+			);
+			name = PenguinBomberTests;
+			productName = MyGameTests;
+			productReference = AD680C441FA6467A0000AFF5 /* PenguinBomberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD680C4E1FA6467A0000AFF5 /* PenguinBomberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD680C5E1FA6467A0000AFF5 /* Build configuration list for PBXNativeTarget "PenguinBomberUITests" */;
+			buildPhases = (
+				AD680C4B1FA6467A0000AFF5 /* Sources */,
+				AD680C4C1FA6467A0000AFF5 /* Frameworks */,
+				AD680C4D1FA6467A0000AFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD680C511FA6467A0000AFF5 /* PBXTargetDependency */,
+			);
+			name = PenguinBomberUITests;
+			productName = MyGameUITests;
+			productReference = AD680C4F1FA6467A0000AFF5 /* PenguinBomberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD680C241FA6467A0000AFF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Marko;
+				TargetAttributes = {
+					AD680C2B1FA6467A0000AFF5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AD680C431FA6467A0000AFF5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD680C2B1FA6467A0000AFF5;
+					};
+					AD680C4E1FA6467A0000AFF5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD680C2B1FA6467A0000AFF5;
+					};
+				};
+			};
+			buildConfigurationList = AD680C271FA6467A0000AFF5 /* Build configuration list for PBXProject "PenguinBomber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD680C231FA6467A0000AFF5;
+			productRefGroup = AD680C2D1FA6467A0000AFF5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ADAABD901FB65B1A00B5AD29 /* Products */;
+					ProjectRef = ADAABD8F1FB65B1A00B5AD29 /* Express.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AD680C2B1FA6467A0000AFF5 /* PenguinBomber */,
+				AD680C431FA6467A0000AFF5 /* PenguinBomberTests */,
+				AD680C4E1FA6467A0000AFF5 /* PenguinBomberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ADAABD961FB65B1B00B5AD29 /* libExpress.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libExpress.a;
+			remoteRef = ADAABD951FB65B1B00B5AD29 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADAABD981FB65B1B00B5AD29 /* libExpress.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libExpress.a;
+			remoteRef = ADAABD971FB65B1B00B5AD29 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD680C2A1FA6467A0000AFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD680C811FA68B680000AFF5 /* penguin.png in Resources */,
+				AD680C391FA6467A0000AFF5 /* Assets.xcassets in Resources */,
+				ADAABD811FB6421E00B5AD29 /* bomb.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD680C421FA6467A0000AFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD680C4D1FA6467A0000AFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD680C281FA6467A0000AFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAABD6C1FB6258800B5AD29 /* Scene.m in Sources */,
+				ADAABD731FB6265800B5AD29 /* Bomb.m in Sources */,
+				ADAABD691FB622BD00B5AD29 /* Level.m in Sources */,
+				ADAABD581FB5DFA500B5AD29 /* PenguinBomber.m in Sources */,
+				AD680C3F1FA6467A0000AFF5 /* main.m in Sources */,
+				ADAABD651FB61F1700B5AD29 /* GameRenderer.m in Sources */,
+				ADAABD701FB6264900B5AD29 /* Penguin.m in Sources */,
+				ADAABD5F1FB5E84E00B5AD29 /* Sprite.m in Sources */,
+				ADAABD7F1FB6340300B5AD29 /* PenguinLevel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD680C401FA6467A0000AFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD680C4B1FA6467A0000AFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD680C461FA6467A0000AFF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD680C2B1FA6467A0000AFF5 /* PenguinBomber */;
+			targetProxy = AD680C451FA6467A0000AFF5 /* PBXContainerItemProxy */;
+		};
+		AD680C511FA6467A0000AFF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD680C2B1FA6467A0000AFF5 /* PenguinBomber */;
+			targetProxy = AD680C501FA6467A0000AFF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD680C561FA6467A0000AFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD680C571FA6467A0000AFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD680C591FA6467A0000AFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PenguinBomber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XNI",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ufi.PenguinBomber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"/**";
+			};
+			name = Debug;
+		};
+		AD680C5A1FA6467A0000AFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PenguinBomber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XNI",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ufi.PenguinBomber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"/**";
+			};
+			name = Release;
+		};
+		AD680C5C1FA6467A0000AFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ufi.MyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenguinBomber.app/PenguinBomber";
+			};
+			name = Debug;
+		};
+		AD680C5D1FA6467A0000AFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ufi.MyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenguinBomber.app/PenguinBomber";
+			};
+			name = Release;
+		};
+		AD680C5F1FA6467A0000AFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ufi.MyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyGame;
+			};
+			name = Debug;
+		};
+		AD680C601FA6467A0000AFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ufi.MyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD680C271FA6467A0000AFF5 /* Build configuration list for PBXProject "PenguinBomber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD680C561FA6467A0000AFF5 /* Debug */,
+				AD680C571FA6467A0000AFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD680C581FA6467A0000AFF5 /* Build configuration list for PBXNativeTarget "PenguinBomber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD680C591FA6467A0000AFF5 /* Debug */,
+				AD680C5A1FA6467A0000AFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD680C5B1FA6467A0000AFF5 /* Build configuration list for PBXNativeTarget "PenguinBomberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD680C5C1FA6467A0000AFF5 /* Debug */,
+				AD680C5D1FA6467A0000AFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD680C5E1FA6467A0000AFF5 /* Build configuration list for PBXNativeTarget "PenguinBomberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD680C5F1FA6467A0000AFF5 /* Debug */,
+				AD680C601FA6467A0000AFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD680C241FA6467A0000AFF5 /* Project object */;
+}
